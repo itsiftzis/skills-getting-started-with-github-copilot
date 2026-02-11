@@ -21,6 +21,48 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
+    "Basketball": {
+        "type": "sports",
+        "description": "Team basketball practice and intramural games",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["alex@mergington.edu"]
+        },
+        "Tennis": {
+        "type": "sports",
+        "description": "Tennis training and match preparation",
+        "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 10,
+        "participants": ["grace@mergington.edu"]
+        },
+        "Drama Club": {
+        "type": "artistic",
+        "description": "Theater performances and acting workshops",
+        "schedule": "Wednesdays, 4:00 PM - 6:00 PM",
+        "max_participants": 25,
+        "participants": ["noah@mergington.edu", "ava@mergington.edu"]
+        },
+        "Art Studio": {
+        "type": "artistic",
+        "description": "Painting, sculpture, and mixed media art",
+        "schedule": "Mondays and Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 18,
+        "participants": ["isabella@mergington.edu"]
+        },
+        "Robotics Club": {
+        "type": "intellectual",
+        "description": "Build and program robots for competitions",
+        "schedule": "Tuesdays and Fridays, 4:00 PM - 5:30 PM",
+        "max_participants": 16,
+        "participants": ["lucas@mergington.edu", "mia@mergington.edu"]
+        },
+        "Debate Team": {
+        "type": "intellectual",
+        "description": "Develop argumentation and public speaking skills",
+        "schedule": "Wednesdays and Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 14,
+        "participants": ["james@mergington.edu"]
+        },
     "Chess Club": {
         "type": "intellectual",
         "description": "Learn strategies and compete in chess tournaments",
